@@ -1,14 +1,5 @@
 # -*- coding: utf-8 -*-
 from os import system, name
-import httpx
-#import asyncio
-from httpx import AsyncClient, Headers
-import os, threading, requests, cloudscraper, datetime, time, socket, socks, ssl, random
-from urllib.parse import urlparse
-from requests.cookies import RequestsCookieJar
-import undetected_chromedriver as webdriver
-from sys import stdout
-from colorama import Fore, init
 init(convert=True)
 url = "https://zdstresser.net/panel/apiv1/"
 def get_info_l7():
